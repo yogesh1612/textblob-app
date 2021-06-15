@@ -27,7 +27,7 @@ def get_key( my_value, my_dicts):
             return key
 @st.cache
 def lista_idiomas(idioma_original):
-    df_idiomas = pd.read_csv('lista_idiomas.csv')
+    df_idiomas = pd.read_csv('/content/textblob-app/lista_idiomas.csv')
     dict_idiomas = {}
     linhas = len(df_idiomas)
     for i in range(0, linhas):
@@ -39,7 +39,7 @@ def lista_idiomas(idioma_original):
 
 @st.cache
 def lista_idiomas_full():
-    df_idiomas = pd.read_csv('lista_idiomas.csv')
+    df_idiomas = pd.read_csv('/content/textblob-app/lista_idiomas.csv')
     dict_idiomas = {}
     linhas = len(df_idiomas)
     for i in range(0, linhas):

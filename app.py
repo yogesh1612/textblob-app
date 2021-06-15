@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-# NLP Pkgss
+# NLP Pkgs
 from textblob import TextBlob
 
 import pandas as pd

@@ -68,7 +68,7 @@ def main():
     
     #image = Image.open("people_speaking.jpg")
    # st.sidebar.image("/content/textblob-app/logo/logo.png", use_column_width=True)
-    st.sidebar.image("/logo/logo.png", use_column_width=True)
+    st.sidebar.image("logo.png", use_column_width=True)
     activities = ["Detector & Translator","Voice"]
     choice = st.sidebar.selectbox("Menu",activities)
 
